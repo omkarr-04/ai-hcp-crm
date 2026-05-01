@@ -1,0 +1,16 @@
+# AI-HCP CRM - Healthcare Professional Interaction Logging Module
+# Root requirements file
+
+# Backend dependencies
+fastapi>=0.104.0
+uvicorn>=0.24.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+langgraph>=0.0.20
+groq>=0.4.0
+alembic>=1.12.0
+
+# Frontend will have its own package.json
